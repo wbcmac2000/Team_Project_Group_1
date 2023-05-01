@@ -49,8 +49,8 @@ class FileOperations:
                                 print(skips)
 
                                 add = phrases1 + skips
-
-                                adds.append(phrases[add])
+                                # adds should not contain the search result itself
+                                # adds.append(phrases[add])
 
                                 phrases3 = phrases.index(search_string, starts)
                                 # here
